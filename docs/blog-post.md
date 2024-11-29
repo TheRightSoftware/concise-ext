@@ -10,19 +10,69 @@ Concise is a Chrome extension that helps you quickly understand any webpage by:
 - Providing easy copy-paste functionality
 - Working with both webpage content and clipboard text
 
-## Development Process with AI
+## Development Tools Used
 
-### Tools Used
-- **Cursor**: AI-powered code editor
-- **HuggingFace API**: For text summarization
-- **Chrome Extensions API**: For browser integration
+### Core Development Tools
+1. **Cursor IDE**
+   - AI-powered code editor
+   - Used for rapid development
+   - Intelligent code suggestions
+   - Built-in AI assistance
 
-### How AI Accelerated Development
-1. **Initial Setup**: AI generated the basic extension structure
-2. **UI Development**: AI helped create a clean, intuitive interface
-3. **Feature Implementation**: AI suggested best practices for each feature
-4. **Error Handling**: AI helped implement robust error handling
-5. **Documentation**: AI assisted in creating clear documentation
+2. **HuggingFace API**
+   - Free tier for text summarization
+   - bart-large-cnn model
+   - Easy-to-use REST API
+   - Reliable performance
+
+3. **SVG to PNG Conversion**
+   - Used svgtopng.com for icon conversion
+   - Maintained quality across sizes
+   - Proper Chrome extension format
+   - Consistent appearance
+
+### Additional Tools
+- **Chrome Extensions Developer Tools**
+  - For testing and debugging
+  - Real-time extension updates
+  - Performance monitoring
+
+- **Git & GitHub**
+  - Version control
+  - Collaboration
+  - Documentation
+  - Distribution
+
+- **Chrome Web Store Developer Dashboard**
+  - Extension publishing (upcoming)
+  - Analytics and monitoring
+  - User feedback management
+
+## Development Process
+
+1. **Initial Setup with Cursor IDE**
+   - Used AI to generate boilerplate
+   - Quick iteration on features
+   - Intelligent code completion
+   - Error detection and fixes
+
+2. **Icon Development**
+   - Created SVG icons
+   - Converted to PNG using svgtopng.com
+   - Optimized for different sizes
+   - Maintained visual consistency
+
+3. **API Integration**
+   - Set up HuggingFace account
+   - Implemented API authentication
+   - Optimized request/response handling
+   - Added error management
+
+4. **Testing and Refinement**
+   - Chrome extension testing
+   - Performance optimization
+   - User experience improvements
+   - Bug fixes and enhancements
 
 ## Installation Guide
 
